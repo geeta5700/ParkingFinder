@@ -1,0 +1,24 @@
+﻿<Window x:Class="WpfApp2.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid Background="#FFD04E1A">
+        <Button Content="Login" HorizontalAlignment="Left" Height="41.606" Margin="334.844,271.109,0,0" VerticalAlignment="Top" Width="114.963" Click="Submit" Background="#FF12A1EB" FontSize="16" Opacity="0.8" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock Height="61.212" Margin="334.844,10,58.027,0" TextWrapping="Wrap" Text="Login" Background="#FFD04E1A" FontSize="48" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="34.8" Margin="294.7,121.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241.2" FontSize="17"/>
+        <Label Content="Email" HorizontalAlignment="Left" Height="34.8" Margin="167.5,121.2,0,0" VerticalAlignment="Top" Width="97.2" Background="#FFD04E1A" FontSize="17"/>
+        <Label Content="Password" HorizontalAlignment="Left" Height="34.8" Margin="167.5,186,0,0" VerticalAlignment="Top" Width="97.2" Background="#FFD04E1A" FontSize="17" RenderTransformOrigin="0.185,0.345"/>
+        <PasswordBox HorizontalAlignment="Left" Height="34.8" Margin="294.7,186,0,0" VerticalAlignment="Top" Width="241.2"/>
+        <Label Content="Don't have an account? " HorizontalAlignment="Left" Height="34.8" Margin="251.5,354,0,0" VerticalAlignment="Top" Width="289.2" Background="#FFD04E1A" FontSize="17" RenderTransformOrigin="0.185,0.345"/>
+        <Button Content="Sign up" HorizontalAlignment="Left" Height="32.4" Margin="443.5,351,0,0" VerticalAlignment="Top" Width="66" FontSize="16" FontWeight="Bold" Foreground="#FF1684BD" Background="#FFD04E1A" BorderBrush="#FFD04E1A" Click="click"/>
+
+    </Grid>
+</Window>

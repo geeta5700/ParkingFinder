@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp2.Window3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Window3" Height="450" Width="800">
+    <Grid Background="#FFA9F4E8">
+        <Button Content="Toronto" HorizontalAlignment="Left" Height="133.832" Margin="228.917,189.524,0,0" VerticalAlignment="Top" Width="324.846" Click="Toronto" FontSize="16" Opacity="0.8" Cursor="Hand" FontWeight="ExtraLight">
+            <Button.Background>
+                <ImageBrush ImageSource="http://t2.gstatic.com/licensed-image?q=tbn:ANd9GcTzPJtyZdWRLE0--fRs897hS16wYnFpxctNMIOFkNYexhylZL9BO20LACVGmAPgAnWV"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock Height="61.212" Margin="271.34,10,121.531,0" TextWrapping="Wrap" Text="Ontario Cities " Background="#FFA9F4E8" FontSize="48" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold"/>
+
+        <Label Content="Select the City Where you Want to Park Your Car" HorizontalAlignment="Left" Height="33.327" Margin="228.917,98.584,0,0" VerticalAlignment="Top" Width="364.599" FontSize="16"/>
+        <Label Content="Toronto" HorizontalAlignment="Left" Height="31.752" Margin="108.343,222.983,0,0" VerticalAlignment="Top" Width="120.574" FontSize="20" RenderTransformOrigin="1.885,-0.146"/>
+
+
+    </Grid>
+</Window>

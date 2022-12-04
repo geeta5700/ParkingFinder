@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp2.Booking"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Booking" Height="450" Width="800">
+    <Grid Background="#FFD04E1A">
+
+        <TextBlock Height="107.299" Margin="265.593,10,127.278,0" TextWrapping="Wrap" Text="Book Parking" Background="#FFD04E1A" FontSize="48" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold"/>
+        <Button Content="Payment" HorizontalAlignment="Left" Height="41.606" Margin="334.844,355.459,0,0" VerticalAlignment="Top" Width="144.525" Click="genreciept" Background="#FF12A1EB" FontSize="16" Opacity="0.8" Cursor="Hand">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Label Content="Please Select The Time for your Parking" HorizontalAlignment="Left" Height="33.327" Margin="236.581,71.212,0,0" VerticalAlignment="Top" Width="364.599" FontSize="16"/>
+        <TextBox HorizontalAlignment="Left" Height="34.8" Margin="331.926,117.299,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241.2" FontSize="17"/>
+        <Label Content="Email" HorizontalAlignment="Left" Height="34.8" Margin="204.726,117.299,0,0" VerticalAlignment="Top" Width="97.2" Background="#FFD04E1A" FontSize="17"/>
+        <TextBox HorizontalAlignment="Left" Height="34.8" Margin="331.926,163.283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241.2" FontSize="17"/>
+        <Label Content="Contact No." HorizontalAlignment="Left" Height="34.8" Margin="204.726,163.283,0,0" VerticalAlignment="Top" Width="108.149" Background="#FFD04E1A" FontSize="17"/>
+        <TextBox HorizontalAlignment="Left" Height="34.8" Margin="331.926,208.559,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241.2" FontSize="17"/>
+        <Label Content="Car Number" HorizontalAlignment="Left" Height="34.8" Margin="204.726,208.559,0,0" VerticalAlignment="Top" Width="108.149" Background="#FFD04E1A" FontSize="17"/>
+        <Label Content="Select Time" HorizontalAlignment="Left" Height="34.8" Margin="133.558,278.632,0,0" VerticalAlignment="Top" Width="108.149" Background="#FFD04E1A" FontSize="17"/>
+        <RadioButton Content="30min" HorizontalAlignment="Left" Height="22.067" Margin="275.894,285.709,0,0" VerticalAlignment="Top" Width="69.327" Background="White" FontSize="16"/>
+        <RadioButton Content="1hr" HorizontalAlignment="Left" Height="22.067" Margin="370.055,285.709,0,0" VerticalAlignment="Top" Width="69.327" Background="White" FontSize="16"/>
+        <RadioButton Content="2hr" HorizontalAlignment="Left" Height="22.067" Margin="469.69,285.709,0,0" VerticalAlignment="Top" Width="69.327" Background="White" FontSize="16"/>
+        <RadioButton Content="5hr" HorizontalAlignment="Left" Height="22.067" Margin="574.967,285.709,0,0" VerticalAlignment="Top" Width="69.327" Background="White" FontSize="16"/>
+        <Button Content="Back" HorizontalAlignment="Left" Height="45.732" Margin="642.019,351.163,0,0" VerticalAlignment="Top" Width="125.245" Click="back" Background="#FFFF0020" FontSize="26" Opacity="0.8" Cursor="Hand" FontFamily="NSimSun" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.344"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>

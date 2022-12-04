@@ -1,0 +1,46 @@
+﻿<Window x:Class="WpfApp2.Toronto"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="Toronto" Height="450" Width="800">
+    <Grid Background="#FFD04E1A">
+        <Button Content="Port Union" HorizontalAlignment="Left" Height="108.395" Margin="91.777,101.401,0,0" VerticalAlignment="Top" Width="236.496" Click="Portunion" Background="#FF12A1EB" FontSize="26" Opacity="0.8" Cursor="Hand" FontFamily="NSimSun">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <TextBlock Height="61.212" Margin="184.844,10,167.516,0" TextWrapping="Wrap" Text="Toronto Parking Places" Background="#FFD04E1A" FontSize="48" VerticalAlignment="Top" FontFamily="Tw Cen MT Condensed Extra Bold"/>
+        <Button Content="Rouge" HorizontalAlignment="Left" Height="108.395" Margin="91.777,249.211,0,0" VerticalAlignment="Top" Width="236.496" Click="rouge" Background="#FF12A1EB" FontSize="26" Opacity="0.8" Cursor="Hand" FontFamily="NSimSun">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="City Center" HorizontalAlignment="Left" Height="108.395" Margin="422.434,101.401,0,0" VerticalAlignment="Top" Width="236.496" Click="citycenter" Background="#FF12A1EB" FontSize="26" Opacity="0.8" Cursor="Hand" FontFamily="NSimSun">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="West Hill" HorizontalAlignment="Left" Height="108.395" Margin="422.434,249.211,0,0" VerticalAlignment="Top" Width="236.496" Click="westhill" Background="#FF12A1EB" FontSize="26" Opacity="0.8" Cursor="Hand" FontFamily="NSimSun">
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+        <Button Content="Back" HorizontalAlignment="Left" Height="45.732" Margin="655.158,367.586,0,0" VerticalAlignment="Top" Width="125.245" Click="back" Background="#FFFF0020" FontSize="26" Opacity="0.8" Cursor="Hand" FontFamily="NSimSun" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.344"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+            <Button.Effect>
+                <DropShadowEffect/>
+            </Button.Effect>
+        </Button>
+
+    </Grid>
+</Window>
