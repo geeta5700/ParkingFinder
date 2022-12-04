@@ -1,6 +1,8 @@
 # ParkingFinder
 
-#This is a group project Prepaed for Aleksandar Malinovic
+#This is a group project Prepared for Aleksandar Malinovic
+
+#High-quality Software Programming subject
 
 Team Members:
 Geeta Ambvani
